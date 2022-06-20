@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 110%;
+    color: #000000;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.header-menu ul {
+    display: flex;
+}
+
+.header-menu li {
+    list-style-type: none;
+    margin-right: 44px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+}
+
+.header-menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.header-discount {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #000000;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    height: 621px;
+    box-sizing: border-box;
+    padding: 186px 270px 105px 130px;
+}
+
+.main-header__title {
+    display: flex;
+    width: 801px;
+    height: 330px;
+    font: 400 100px/110% "Merriweather", serif;
+    color: #000000;
+}
+
+.main-header__logo {
+    display: flex;
+    width: 165px;
+    height: 253px;
+}
+
+.main-review {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-review__office {
+    width: 100%;
+}
+
+.main-review__hall {
+    width: 50%;
+}
+
+.main-review__container {
+    display: flex;
+}
+
+.work-schedule {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 177px 0 70px;
+}
+
+.work-schedule__title {
+    font: 700 36px/45px 'Merriweather';
+    color: #000000;
+    margin-bottom: 38px;
+    text-align: center;
+}
+
+.work-schedule__time {
+    font: 400 36px/49px "Open Sans", sans-serif;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 123px;
+}
+
+.work-schedule__text {
+    width: 310px;
+}
+
+.work-schedule__comment {
+    width: 477px;
+    height: 175px;
+    font: 400 18px/25px "Open Sans", sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.467;
+}
+
+li a:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #000000;
+    transition: width 0.2s ease-in-out;
+}
+
+li a:hover:after,
+li a:focus:after {
+    width: 100%;
+}
+
+li a:hover {}
+
+.form {
+    padding-bottom: 150px;
+    padding-top: 144px;
+    background-color: #F99D3A;
+}
+
+.form__title {
+    font: 400 100px/110% 'Merriweather';
+    text-align: center;
+    color: #000000;
+    margin-bottom: 64px;
+}
+
+.form__button {
+    display: flex;
+    justify-content: center;
+}
+
+.button__accent {
+    background: #FFFFFF;
+    border: 1px solid #0E0807;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 23px 60px;
+    cursor: pointer;
+}
+
+.button__accent:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    background: rgb(240, 206, 141);
+}
+
+.button__text {
+    font: 600 24px/150% 'Open Sans';
+    color: #0E0807;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 124px 129px 25px 131px;
+}
+
+.footer__container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__contacts {
+    display: flex;
+}
+
+.footer__title {
+    font: 700 36px/45px "Merriweather", sans-serif;
+    color: #000000;
+    margin-bottom: 37px;
+}
+
+.footer__text {
+    font: 400 24px/33px "Open Sans", sans-serif;
+    color: #000000;
+    list-style-type: none;
+}
+
+.contacts {
+    margin-right: 119px;
+}
+
+.list__item {
+    margin-bottom: 12px;
+
+}
+
+.list__item_link {
+    text-decoration: none;
+    color: #000000;
+}
